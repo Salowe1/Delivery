@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/10/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/10/js/bootstrap.min.js"></script>
+
+    
+    
+</head>
+<script>
+    setTimeout(()=>{
+        document.querySelector('.loader').style.display = 'none'},2000);
+          
+</script>
+
+
+
+
+
+<body style="background-color: #eee;"  >
+
+ 
+    <div class="loader"></div>
+<!--header section starts-->
+
+
+<header>
+    <div class="resto">
+    
+    <a href="#" class="logo"><img src="./images/images/cutlery-cross-couple-of-fork-and-spoon-svgrepo-com.svg" style="width: 40px;height: 40px;"><div class="hii">
+        <h3 class="">resto</h3>
+                <h3 class="">resto</h3></div></a>
+
+    </div>
+    
+    <nav class="nava">
+        <ul class="menuList">
+        <li><a id="btn" class="active" href="index.html" >home</a></li>
+        <li><a id="btn" class="active" href="next.html">dishes</a></li>
+        <li><a id="btn" class="active" href="about-us.html">about</a></li> 
+     
+        <li><a id="btn" class="active" href="./review.php">review</a></li>
+        <li><a id="btn" class="active" href="order.php">order</a></li>
+    </ul>
+
+
+    </nav>
+   
+
+    <div class="icons">
+        
+       
+         <div class="menu-deroulant">
+         <a href="#"class="imgss" onclick="myFunction()"  ><img class="imgsss" src="./images/images/market-exhibit-svgrepo-com - Copie (2).svg" style="position:relative;width: 20px;height: 20px;"  top="5px"  ></a>
+
+       <div id="myDropdown" class="dropdown-content" style="border-radius:10px;align-items:center;text-align:center;background-color:hsla(34, 100%, 50%, 0.075);backdrop-filter:blur(8px)"> 
+
+            <a href="./index.html" class="lin" style="font-size:2vw;font-weight:bold;color:#192a56;"><br>Home<br></a> 
+            <a href="./next.html" class="lin" style="font-size:2vw;font-weight:bold;color:#192a56;"><br> Dishes<br></a> 
+            <a href="./about-us.html" class="lin" style="font-size:2vw;font-weight:bold;color:#192a56;"><br> About<br></a> 
+            <a href="./review.php" class="lin" style="font-size:2vw;font-weight:bold;color:#192a56;"><br> Review<br></a> 
+            <a href="./order.html" class="lin" style="font-size:2vw;font-weight:bold;color:#192a56;"><br> Order<br> <br></a> 
+            
+        </div>
+    </div>
+        <a href="#"class="imgs" id="clickCount"><img  class="im"  src="./images/images/market-purchase-svgrepo-com - Copie.svg" style=" color:#192a56;width: 20px;height: 20px;" ></a>
+        
+        
+        <a href="#"class="imgs"><img  class="im" src="./images/images/heart-svgrepo-com - Copie.svg" style="width: 20px; height: 20px;" ></a>
+        
+        
+        
+        <a href="#"class="imgs"><img  class="im" src="./images/images/search-svgrepo-com - Copie.svg"style="width: 20px;height: 20px;" ></a>
+
+    </div>
+    
+   
+       <script>
+        function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");}
+        
+        window.onclick = function(event){
+            if(!event.target.matches('imgss')){
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for(i = 0; i < dropdowns.length; i++){
+                    var openDropdown = dropdowns[i];
+                    if(openDropdown.classList.contains('show')){
+                        openDropdown.classList.remove('show');
+                    }}}
+        }
+       </script>
+    
+    
+
+</header>
+
+<!--header section end-->
+
+<form action=""class="search-form">
+    <input type="search" placeholder="search here" name=""id="search-box">
+    <label for="search-box" class="search"></label>
+    <img src="images/images/croix.jpg" alt="" style="width: 30px;height: 30px;" class="close">
+</form>
+
+    
+
+
+<section ><marquee class="marqueee" style="width:100vw;right:9vw;position:relative;top:1vw;border-top:1vw solid #192a56;border-bottom:1vw solid #192a56;" behavior="" direction="right"><h3 class="text_marqueee" style="color: #192a56; font-size:1.5vw;text-align:center;align-content:center;font-weight:bold;">Welcome to the best restaurant, where culinary excellence meets a warm and inviting atmosphere. Indulge your senses in a culinary journey like no other as our skilled chefs craft delectable dishes that showcase the finest ingredients. From the moment you step through our doors, you'll be greeted with a smile and impeccable service. Our menu features a tantalizing selection of flavors, blending traditional favorites with innovative twists. Whether you're seeking a romantic dinner for two or a festive gathering with friends, our restaurant provides the perfect setting. Join us and experience a memorable dining experience that will leave you craving more. Bon appétit!</h3></marquee>
+
+</section>
+
+
+<Section class="home">
+   
+<h1 class="eat" style="color: #192a56; font-size:3.5vw;text-align:center;font-family:sans-serif;align-content:center;font-weight:bold;position:relative;bottom:2vw;">EAT HEALTHY AND PLEASANT FOOD</h1>
+
+
+
+<br> <br> <br>
+    <div class="shadow"> 
+    <div class="container">
+    <div class="slide">
+       <span class="span">our special dish <br></span>
+        <h3 class="plate">Babenda</h3> <br>
+        <h1 class="price">5$</h1><br> <br>
+        <button class="button2">order now</button>
+    </div>
+    <div class="imagess"style="width:100%;height:100%;"> <marquee class="marquee" style="height:100%;position:relative;margin:0;" behavior="alternate" direction="right">
+      <img class="image1"  src="./images/images/babenda2.jpg" style="width: 710px;  border-radius: 5px;" height="390px"   alt="">
+
+      <img class="image2" src="./images/images/babenda3.jpg" style="width: 710px;  border-radius: 5px;" height="390px"   alt="">
+
+      <img class="image3" src="./images/images/babenda4.jpg" style="width: 710px;  border-radius: 5px;" height="390px"   alt="">
+</marquee>
+    </div>
+</div>
+</div>
+<br> <br> <br>
+
+
+<div class="shadow">
+    <div class="container">
+    <div class="slide">
+       <span class="span">our special dish <br></span>
+        <h3 class="plate">Steak</h3> <br>
+        <h1 class="price">8$</h1><br> <br>
+        <button class="button2">order now</button>
+    </div>
+    <div class="imagess" style="width:100%;position:relative;left:20px;"> <marquee class="marquee" style="height:100%;position:relative;margin:0;" behavior="alternate" direction="right">
+      <img class="image1"  src="./images/images/steak1.jpg" style="width: 710px;  border-radius: 5px;" height="390px"   alt="">
+
+      <img class="image2" src="./images/images/steak2.jpg" style="width: 710px;  border-radius: 5px;" height="390px"   alt="">
+
+      <img class="image3" src="./images/images/steak3.jpg" style="width: 710px;  border-radius: 5px;" height="390px"   alt="">
+
+</marquee>
+    </div>
+</div>
+</div>
+
+
+<br> <br> <br>
+<div class="shadow">
+<div class="container">
+    <div class="slide">
+    
+        <span class="span">our special dish <br></span>
+        <h3 class="plate">Chicken</h3> <br>
+        <h1 class="price" >14$</h1> 
+        <br> <br>   <button class="button2">order now</button>
+        
+    </div>
+    <div class="imagess" style="width:100%;height:100%;position:relative;left:16px;"> <marquee class="marquee" style="height:100%;width:100%;" behavior="alternate" direction="right">
+        <img class="image1"  src="./images/images/chicken1.jpg" style="width: 710px;  border-radius: 5px;" height="390px"   alt="">
+  
+        <img class="image2" src="./images/images/chicken2.jpg" style="width: 710px;  border-radius: 5px;" height="390px"   alt="">
+  
+        <img class="image3" src="./images/images/chicken3.jpg" style="width: 710px;   border-radius: 5px;" height="390px"   alt="">
+  
+  </marquee>
+      </div>
+</div>
+</div>
+<br> <br> <br>
+
+<style>.imagess:hover{height:100%;}</style>
+
+
+<div class="shadow">
+    <div class="container">
+        <div class="slide">
+        
+            <span class="span">our special dish <br></span>
+            <h3 class="plate">Burger</h3> <br>
+            <h1 class="price">10$</h1>
+            <br> <br><button class="button2">order now</button>
+            
+        </div>
+        <div class="imagess" style="height:100%;width:100%;position:relative;left:20px;"> <marquee class="marquee" style="height:100%;position:relative;margin:0;" behavior="alternate" direction="right">
+            <img class="image1"  src="./images/images/burger1.jpg" style="width: 710px;  border-radius: 5px;" height="390px"   alt="">
+      
+            <img class="image2" src="./images/images/burger2.jpg" style="width: 710px;  border-radius: 5px;" height="390px"   alt="">
+      
+            <img class="image3" src="./images/images/burger3.jpg" style="width: 710px;  border-radius: 5px;" height="390px"   alt="">
+      
+      </marquee>
+          </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+</Section>
+
+
+
+
+
+
+
+</body>
+
+<br class="bord">
+
+
+
+
+  
+  <br class="bord">
+                    
+
+    <script> window.addEventListener('load', () =>{
+        const year = document.getElementById('currentYear');
+    year.innerHTML = new Date().getFullYear();});
+        </script>
+
+
+
+<footer>
+    <div class="foot1">
+        <p class="getcon">Get connected with us on social networks</p>
+        <div class="circl"><img src="./images/FB.svg" class="fbook" style="height:2.5vw;width:2.5vw;align-content:center;position:relative;left:0.2vw;top:0.255vw;"alt=""></div>
+        <div class="circle"><img src="./images/insta.svg" style="height:2.5vw;width:2.5vw;align-content:center;position:relative;left:0.2vw;top:0.255vw;"alt=""></div>
+
+    </div>
+    <div class="foot2">
+        <div class="arow">
+            <p style="color:white;font-size:1.5vw;font-weight:bolder;">LOCATIONS</p>
+            <br>
+            <div style="position:relative;width:5vw;height:0.5vw;background-color:#3b4f82;"></div>
+            <br> <br> <br> <br>
+            <br>
+            <ul style="display:grid;">
+                <li><a href="" class="footitem" >Ouaga</a></li> <br> <br>
+                <li><a href="" class="footitem" >Bobo</a></li> <br> <br>
+                <li><a href="" class="footitem" >Koudougou</a></li> <br> <br>
+                <li><a href="" class="footitem" >Banfora</a></li>
+            </ul>
+        </div>
+        <div class="arow">
+            <p style="color:white;font-size:1.5vw;font-weight:bolder;">USEFUL LINKS</p>
+            <br>
+            <div style="position:relative;width:5vw;height:0.5vw;background-color:#3b4f82;"></div>
+            <br> <br> <br> <br>
+            <br>
+            <ul style="display:grid;">
+                <li><a href="" class="footitem" >Dishes</a></li> <br> <br>
+                <li><a href="" class="footitem" >About</a></li> <br> <br>
+                <li><a href="" class="footitem" >Review</a></li> <br> <br>
+                <li><a href="" class="footitem" >Order</a></li>
+            </ul>
+        </div>
+        <div class="arow">
+            <p style="color:white;font-size:1.5vw;font-weight:bolder;">OTHER</p> 
+            <br>
+            <div style="position:relative;width:5vw;height:0.5vw;background-color:#3b4f82;"></div>
+            <br> <br> <br> <br>
+            <br>
+            <ul style="display:grid;">
+                <li><a href="" class="footitem" >FAQ</a></li> <br> <br>
+                <li><a href="" class="footitem" >Rate us</a></li> <br> <br>
+                <li><a href="" class="footitem" >Help</a></li> <br> <br>
+                <li><a href="" class="footitem" >Partners</a></li>
+            </ul>
+        </div>
+        <div class="arow">
+            <p style="color:white;font-size:1.5vw;font-weight:bolder;">CONTACT</p> 
+            <br>
+            <div style="position:relative;width:5vw;height:0.5vw;background-color:#3b4f82;"></div>
+            <br> <br> <br> <br>
+            <br>
+            <ul style="display:grid;">
+                <li style="position: relative;bottom:1.8vw;"><img src="./images/locatio.svg" style="width:1.5vw;height:2.5vw;position:relative;top:0.5vw; right:0.2vw;" class="iconn" alt=""><a href="https://www.google.com/maps/place/Burkina+Institute+of+Technology,+BIT/@12.218074,-2.37833,15z/data=!4m6!3m5!1s0xe2e1bc343b7f37f:0xeb6236f11b18d9f5!8m2!3d12.2180744!4d-2.3783305!16s%2Fg%2F11fd75_x16?hl=fr&entry=ttu" class="footitem" >Location</a></li> <br> <br>
+                <li style="position: relative;bottom:3.8vw;"><img src="./images/mail.svg" style="width:2vw;height:3vw;position:relative;top:1vw; padding-right:0.5vw;" class="iconn" alt=""><a href="" class="footitem" >enterp@gmail.com</a></li> <br> <br>
+                <li style="position: relative;bottom:5.4vw;left:0.5vw;"><img src="./images/phone.svg" style="width:1.5vw;height:2.5vw;position:relative;top:0.7vw; right:0.6vw;" class="iconn" alt=""><a href="" class="footitem" >00 226 070 774 18</a></li> <br>
+                <br>
+                <li style="position: relative;bottom:8.3vw;right:0.5vw"><img src="./images/home.svg" style="width:2.5vw;height:4vw;position:relative;top:1.4vw; right:0.2vw;" class="iconn" alt=""><a href="" class="footitem" >00 226 070 774 20</a></li>
+            </ul>
+        </div>
+        
+
+    </div>
+    
+    <div style="position:relative;width:46vw;height:0.4vw;background-color:#3b4f82;position:relative;top:4.155vw;left:25vw;"></div>
+    
+    
+    <div class="foot3">
+        <div class="copyright"> &copy; <span id="currentYear"></span> Copyright by  <span>Salowe & Esther </span></div>
+    </div>
+
+
+   
+  
+ </footer>
+
+
+
+ <style>
+    footer{
+        top: 3vw;
+        position: relative;
+    }
+
+    
+    .foot1{
+        background-color: hsl(34, 100%, 50%);
+        width: 100%;
+        height: 3vw;
+        position: relative;
+        top: 5vw;
+
+    }
+    .circl{
+        width: 3vw;
+        height: 3vw;
+        border-radius: 50%;
+        background-color: #192a56;
+        position: relative;
+        bottom: 1.5vw;
+        left: 70vw;
+    }
+    .circl:hover{
+      background-color:  #ffffff;
+    }
+    .circle{
+        width: 3vw;
+        height: 3vw;
+        border-radius: 50%;
+        background-color: #f1f3f8;
+        position: relative;
+        bottom: 1.5vw;
+        left: 71vw;
+    }
+    
+    .circle2{
+        width: 3vw;
+        height: 3vw;
+        border-radius: 50%;
+        background-color: #192a56;
+        position: relative;
+    }
+    .circle3{
+        width: 3vw;
+        height: 3vw;
+        border-radius: 50%;
+        background-color: #192a56;
+        position: relative;
+        bottom: 1.5vw;
+        left: 88vw;
+    }
+    .getcon{
+        position: relative;
+        color: var(--black);
+        font-weight: bolder;
+        font-size: 1.3vw;
+        left: 24vw;
+        top:0.5vw;
+    }
+    
+    .foot2{
+        background-color: var(--black);
+        width: 100%;
+        height: 23vw;
+        display: flex;
+        gap: 14vw;
+        position: relative;
+        top: 5vw;
+        
+
+    }
+    .foot3{
+        background-color: var(--black);
+        width: 100%;
+        height: 7vw;
+        position: relative;
+        top: 4vw;
+
+    }
+
+    .footitem{
+        color:white;font-size:1vw;
+        font-weight: lighter;
+        opacity: 50%;
+    }
+
+.footitem:hover{
+    color: white;
+    opacity: 100%;
+}
+    .arow{
+        position: relative;
+        left: 12vw;
+        top: 6vw;
+    }
+    .copyright{
+        align-items: center;
+        text-align: center;
+        font-size: 1.2vw;
+        font-weight: bolder;
+        color: white;
+        position: relative;
+        top: 5.5vw;
+        opacity: 90%;
+        
+    }
+    
+    
+ </style>
+
+  
+</html>
